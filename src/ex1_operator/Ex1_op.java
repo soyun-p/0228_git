@@ -17,7 +17,52 @@ public class Ex1_op {
 		 비트, 시프트 빼고 다 알아야 함.
 		  */
 		
+		// 산술 연산자 : 4칙 연산과 나머지 연산자
+		int n1 = 20;
+		int n2 = 7;
+		int n3 = n1 + n2;
+		System.out.println("+ : " + n3);
+		
+		n3 = n1 * n2;
+		System.out.println("* : " + n3);
+		
+		n3 = n1 / n2;
+		System.out.println("/ : " + n3);  // 몫 출력
+		
+		n3 = n1 % n2;
+		System.out.println("% : " + n3);  // 나머지 출력
+		
+		
+		
+		System.out.println("-------------------------------");
+		
+		
+		
+		// 대입 연산자 : 특정 값을 변수에 전달하여 기억시키는 연산자
+		
+		int m1 = 10;
+		int m2 = 5;  // =
+		
+		m1 += m2;
+		System.out.println("+= : " + m1);  // += : m1 + m2 => m1에 대입
+		
+		m1 -= 1;
+		System.out.println("-= : " + m1);  // -= : m1 - 1 => m1에 대입
+		
+		m1 /= 7;
+		System.out.println("/= : " + m1); // /= : m1 / 7 => m1에 대입
+		
+		m2 %= m1;
+		System.out.println("%= : " + m2);  // /= : m2 % m1 => m2에 대입
+		
+
 		
 	} // main
 
 }
+
+
+
+
+
+
